@@ -6,7 +6,7 @@ public class User {
     public User(String name, double monthlyIncome) {
         this.name = name;
         this.monthlyIncome = monthlyIncome;
-        this.totalBudget = monthlyIncome * 0.5; // Example: Budget is 50% of income
+        this.totalBudget = monthlyIncome * 0.5; 
     }
 
     public String getName() {
